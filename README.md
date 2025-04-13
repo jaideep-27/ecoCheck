@@ -6,9 +6,7 @@
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
 </div>
 
-<p align="center">
-  <img src="https://via.placeholder.com/200x200.png?text=EcoCheck+Logo" alt="EcoCheck Logo" width="200"/>
-</p>
+<!-- Add your app logo here in the future -->
 
 > 🌍 **EcoCheck** is a mobile application designed to help users monitor and reduce their environmental impact through sustainable lifestyle choices and ecological footprint tracking.
 
@@ -23,11 +21,8 @@
 
 ## 📱 Screenshots
 
-<div align="center">
-  <img src="https://via.placeholder.com/180x380.png?text=Dashboard" width="180px" style="margin: 0 10px;"/>
-  <img src="https://via.placeholder.com/180x380.png?text=Calculator" width="180px" style="margin: 0 10px;"/>
-  <img src="https://via.placeholder.com/180x380.png?text=Profile" width="180px" style="margin: 0 10px;"/>
-</div>
+<!-- Add screenshots of your app here when available -->
+*Screenshots will be added as the application development progresses*
 
 ## 🛠️ Technologies
 
@@ -49,7 +44,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ecocheck.git
+   git clone https://github.com/jaideep-27/ecoCheck.git
    cd EcoCheck
    ```
 
