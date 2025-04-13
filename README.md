@@ -1,79 +1,114 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🌱 EcoCheck
 
-# Getting Started
+<div align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+</div>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<p align="center">
+  <img src="https://via.placeholder.com/200x200.png?text=EcoCheck+Logo" alt="EcoCheck Logo" width="200"/>
+</p>
 
-## Step 1: Start the Metro Server
+> 🌍 **EcoCheck** is a mobile application designed to help users monitor and reduce their environmental impact through sustainable lifestyle choices and ecological footprint tracking.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## ✨ Features
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- 📊 **Personal Eco-Dashboard**: Track your daily, weekly, and monthly ecological footprint
+- 🔄 **Carbon Footprint Calculator**: Calculate and monitor your carbon emissions
+- 🎯 **Personalized Goals**: Set sustainability targets and track your progress
+- 🔔 **Eco-Friendly Reminders**: Get notifications for sustainable actions
+- ♻️ **Recycling Guide**: Learn how to properly recycle various materials
+- 🏆 **Achievement System**: Earn badges for eco-friendly actions
 
-```bash
-# using npm
-npm start
+## 📱 Screenshots
 
-# OR using Yarn
-yarn start
-```
+<div align="center">
+  <img src="https://via.placeholder.com/180x380.png?text=Dashboard" width="180px" style="margin: 0 10px;"/>
+  <img src="https://via.placeholder.com/180x380.png?text=Calculator" width="180px" style="margin: 0 10px;"/>
+  <img src="https://via.placeholder.com/180x380.png?text=Profile" width="180px" style="margin: 0 10px;"/>
+</div>
 
-## Step 2: Start your Application
+## 🛠️ Technologies
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- [React Native](https://reactnative.dev/) - Cross-platform mobile framework
+- [TypeScript](https://www.typescriptlang.org/) - Static type checking
+- [Firebase](https://firebase.google.com/) - Authentication and data storage
+- [React Navigation](https://reactnavigation.org/) - Navigation between screens
 
-### For Android
+## 🚀 Getting Started
 
-```bash
-# using npm
-npm run android
+### Prerequisites
 
-# OR using Yarn
-yarn android
-```
+- [Node.js](https://nodejs.org/) (>=18)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- iOS/Android development environment
 
-### For iOS
+### Installation
 
-```bash
-# using npm
-npm run ios
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ecocheck.git
+   cd EcoCheck
+   ```
 
-# OR using Yarn
-yarn ios
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+3. iOS setup (macOS only):
+   ```bash
+   cd ios && pod install && cd ..
+   ```
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+4. Start the Metro server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-## Step 3: Modifying your App
+5. Run the application:
+   ```bash
+   # For iOS
+   npm run ios
+   # or
+   yarn ios
 
-Now that you have successfully run the app, let's modify it.
+   # For Android
+   npm run android
+   # or
+   yarn android
+   ```
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## 🤝 Contributing
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+Contributions are welcome! Feel free to open issues and submit pull requests.
 
-## Congratulations! :tada:
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a pull request
 
-You've successfully run and modified your React Native App. :partying_face:
+## 📝 License
 
-### Now what?
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## 📞 Contact
 
-# Troubleshooting
+Have questions? Reach out to us:
+- Email: contact@ecocheck-app.com
+- Twitter: [@EcoCheckApp](https://twitter.com/EcoCheckApp)
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+<div align="center">
+  <p>
+    <sub>Made with 💚 for a greener planet</sub>
+  </p>
+</div>
